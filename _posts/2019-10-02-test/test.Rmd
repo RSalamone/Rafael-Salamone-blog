@@ -1,7 +1,6 @@
 ---
-title: "Little puppies"
+title: "Article n°1"
 description:
-I love little puppies
 author:
   - name: Salamone Rafael
     url: {}

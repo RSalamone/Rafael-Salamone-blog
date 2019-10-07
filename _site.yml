@@ -1,5 +1,5 @@
 name: "blog-template"
-title: "Genetic research"distill::create_post("nom-de-votre-article")
+title: "Rafael's blog"
 output_dir: "docs"
 navbar:
   right:

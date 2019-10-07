@@ -1,12 +1,10 @@
 ---
-title: "Article 1 : Where’s My Elephant? High-Tech Collars Track Wildlife in Real Time"
+title: "genetic"
 author:
   - name: Nicolas Devilez
 date: 09-18-2019
-categories:
-  - elephant
-  - track
-preview: image/where-s-my-elephant.jpg
+categories: 
+preview: https://hhp-blog.s3.amazonaws.com/2016/12/iStock-473718564.jpg
 output:
   distill::distill_article:
     self_contained: false
