@@ -1,8 +1,10 @@
 ---
 title: "About me"
 ---
+Hi, I'm Rafaël. I'm a biology student at the university of Umons. 
 
++ Surname/Name: Rafael Salamone
++ Teacher: Mis Ingrid VAN LANCKER
++ Group n°2
++ Academic year: AB2 Biology
 
-This section also must include: 
-
-- first name/surname, teacher’s name, class name and academic year
