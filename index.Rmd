@@ -1,5 +1,5 @@
 ---
-title: "Genetic research"
+title: "Genetics research"
 site: distill::distill_website
 listing: posts
 ---
