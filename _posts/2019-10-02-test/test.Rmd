@@ -1,5 +1,5 @@
 ---
-title: "Article n°1"
+title: "Article 1"
 description:
 author:
   - name: Salamone Rafael
