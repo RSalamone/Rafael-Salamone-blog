@@ -4,10 +4,11 @@ description:
 author:
   - name: Rafael Salamone
     url: {}
-date: 10-02-2019
-output:
+date: 10-16-2019
+output: 
   distill::distill_article:
     self_contained: false
+
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 In animals, infections are fought by the immune system. Studies on an unusual virus infecting wild koalas, by a team of researchers from the University of Massachusetts Medical School and the University of Queensland, reveal a new form of **"genome immunity."** The study appears October 10 in the journal Cell.
 
-earRetroviruses, including pathogens like HIV, incorporate into the chromosomes of host cells as part of their infectious lifecycle. **Retroviruses** don't usually infect the **germ cells** that produce sperm and eggs and are therefore usually not passed from generation to generation, but this has happened several times during evolution. Out of the entire 3 billion nucleotides of the human genome, only 1.5% of the sequence forms the 20,000 genes that code for proteins -- and 8% of the human genome comes from fragments of viruses. These pathogen invasions of the genome have sometimes been beneficial. For example, a gene **"co-opted"** from a virus is required for formation of the placenta in all mammals, including humans.
+earRetroviruses, including pathogens like HIV, incorporate into the chromosomes of host cells as part of their infectious lifecycle. **Retroviruses** don't usually infect the **germ cells** that produce sperm and eggs and are therefore usually not **passed** from generation to generation, but this has happened several times during evolution. Out of the entire 3 billion nucleotides of the human genome, only 1.5% of the sequence forms the 20,000 genes that code for proteins -- and 8% of the human genome comes from fragments of viruses. These pathogen invasions of the genome have sometimes been beneficial. For example, a gene **"co-opted"** from a virus is required for formation of the placenta in all mammals, including humans.
 
 Retroviral infection of germ cells has been a rare but important **driving force** in human evolution. But how the germ cells in mammals respond to pathogen invasion has not been previously described and might be quite different than other cells of the body. KoRV-A is a retrovirus **sweeping through** the wild koala population of Australia and is associated with susceptibility to infection and cancer. KoRV-A spreads between individual animals, like most viruses. **Surprisingly**, KoRV-A also infects the **germline** cells, and most wild koalas are born with this pathogen as part of the genetic material of every cell in the body. The team used this system to see how germ cells respond to a retrovirus. Their findings suggest that that germ cells recognize an essential step in the viral life cycle and turn it against the invader to **suppress** genome infection. These studies **shed new light on** interactions between viruses and the genetic **"blueprint,"** written in the genome.
 
@@ -36,7 +37,33 @@ The team is working to expand their findings. "First, we're trying to **figure o
 
 This work was supported by in part by the National Institutes of Health and the Chinese National Natural Science Foundation.
 
+Word count : 711 words 
 
+Source: 
 
-
-
+# Vocabulary 
+Word from the text | Synonym/definition in English | French translation
+------------- | -------------|-----------------------------------------
+Genome immunity | resistance to disease with one's genome | Immunité génomique
+Retroviruses | One of a group of viruses that cause cancers and include the famou AIDS virus) | Rétrovirus 
+Germ cells | sexual reproductive cell | Cellules germinatives
+To pass | to transfer to | passer/transférer à 
+Co-opted | appropriated | Co-opté/approprié
+Driving force | something that plays a key role | Force motrice
+To sweep through | To spread quickly | Se répandre dans
+Suprisingly | Unexpectedly| Etonnamment 
+Germline | The germ line is the set of cells from stem cells to gametes | Lignée germinale
+To shed new light on | To clarify/explain | apporter un nouvel éclairage à
+Blueprint | Plan | Plan
+To go through | To endure| Traverser
+Tamed | Domesticated | Apprivoisé 
+Integrative Biology | a recent field of biology that studies living organisms as the systems they are in reality, as opposed to historical approaches that tend to break down the study at all levels, in biology, physiology, biochemistry| Biology intégrative
+Spacer sequences | sequences that separate other sequences from each other | Séquences d’espacement
+Splicing | A process that removes the intervening, non-coding sequences of genes (introns) from pre-mRNA and joins the protein-coding sequences (exons) together in order to enable translation of mRNA into a protein| Epissage
+Hallmark | Distinctive characteristic| Caractéristique principale
+To surround | To be all arround| Entourer
+To chop | Cut into pieces | Couper
+To figure out | To understand | Comprendre
+Machinery | The organization or structure of something or for doing something| Machinerie
+Process of chopping up | Cutting processus | Processus de découpage 
+To sort out | To resolve | Régler
