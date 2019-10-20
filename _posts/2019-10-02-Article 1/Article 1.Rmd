@@ -39,7 +39,7 @@ This work was supported by in part by the National Institutes of Health and the 
 
 Word count : 711 words 
 
-Source: 
+Source: https://www.sciencedaily.com/releases/2019/10/191010113231.htm
 
 # Vocabulary 
 Word from the text | Synonym/definition in English | French translation
@@ -68,4 +68,14 @@ Machinery | The organization or structure of something or for doing something| M
 Process of chopping up | Cutting processus | Processus de découpage 
 To sort out | To resolve | Régler
 
-#Analysis
+# Analysis
+
+_____________ | ____________
+------------- | -------------
+| Researchers | University of Massachusetts Medical School and the University of Queensland (lead authors: Weng. She and Theurkauf)
+| Published in ? | ScienceDaily, October 10, 2019
+| General topic ?| How koala epidemic can help us to understand the way it succeeded to protect itself from viruses 
+| Procedure/what was examined? | They examined how KoRV-A, a retrovirus which sweeps through the wild population, infects germ cells of koalas. 
+| Conclusions/discovery ? | 
+| Remaining questions | How the virus got into the germline and 
+                      
