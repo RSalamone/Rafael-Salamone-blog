@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Article 
-
+![](https://www.sciencedaily.com/images/2019/10/191010113231_1_540x360.jpg)
 In animals, infections are fought by the immune system. Studies on an unusual virus infecting wild koalas, by a team of researchers from the University of Massachusetts Medical School and the University of Queensland, reveal a new form of **"genome immunity."** The study appears October 10 in the journal Cell.
 
 earRetroviruses, including pathogens like HIV, incorporate into the chromosomes of host cells as part of their infectious lifecycle. **Retroviruses** don't usually infect the **germ cells** that produce sperm and eggs and are therefore usually not **passed** from generation to generation, but this has happened several times during evolution. Out of the entire 3 billion nucleotides of the human genome, only 1.5% of the sequence forms the 20,000 genes that code for proteins -- and 8% of the human genome comes from fragments of viruses. These pathogen invasions of the genome have sometimes been beneficial. For example, a gene **"co-opted"** from a virus is required for formation of the placenta in all mammals, including humans.
@@ -53,6 +53,7 @@ Driving force | something that plays a key role | Force motrice
 To sweep through | To spread quickly | Se répandre dans
 Suprisingly | Unexpectedly| Etonnamment 
 Germline | The germ line is the set of cells from stem cells to gametes | Lignée germinale
+To suppress | To eliminate | éliminer
 To shed new light on | To clarify/explain | apporter un nouvel éclairage à
 Blueprint | Plan | Plan
 To go through | To endure| Traverser
@@ -74,8 +75,8 @@ _____________ | ____________
 ------------- | -------------
 | Researchers | University of Massachusetts Medical School and the University of Queensland (lead authors: Weng. She and Theurkauf)
 | Published in ? | ScienceDaily, October 10, 2019
-| General topic ?| How koala epidemic can help us to understand the way it succeeded to protect itself from viruses 
+| General topic ?| How koala epidemic can help us to understand the way koala succeeded to protect itself from viruses.
 | Procedure/what was examined? | They examined how KoRV-A, a retrovirus which sweeps through the wild population, infects germ cells of koalas. 
-| Conclusions/discovery ? | 
-| Remaining questions | How the virus got into the germline and 
+| Conclusions/discovery ? | Koalas develop an innate genome immune system that can distinguish a virus from one of their genes. Germ cells recognize an indispensable step in the viral life cycle and turn it against the intruder to eliminate genome infection. 
+| Remaining questions | How the virus got into the germline ? A better understanding of the process of cutting the unspliced RNA transcripts in order to they are no longer functional ?
                       
