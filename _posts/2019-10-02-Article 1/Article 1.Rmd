@@ -67,3 +67,5 @@ To figure out | To understand | Comprendre
 Machinery | The organization or structure of something or for doing something| Machinerie
 Process of chopping up | Cutting processus | Processus de découpage 
 To sort out | To resolve | Régler
+
+#Analysis

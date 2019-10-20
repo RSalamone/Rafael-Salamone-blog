@@ -19,366 +19,36 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Rafael's blog: Genetics research</title>
+  <title>Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses</title>
   
   
   
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2019-10-16"/>
+  <meta property="article:created" itemprop="dateCreated" content="2019-10-16"/>
+  <meta name="article:author" content="Rafael Salamone"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Rafael&#39;s blog: Genetics research"/>
+  <meta property="og:title" content="Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Rafael&#39;s blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Rafael&#39;s blog: Genetics research"/>
+  <meta property="twitter:title" content="Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Genetics research"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses"]},{"type":"NULL"},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Rafael Salamone"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["10-16-2019"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
   
-  <script type="application/javascript">
-  
-    window.headroom_prevent_pin = false;
-  
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-  
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-  
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-  
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-  
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["Article 1.html","Article 1.pdf","test_files/bowser-1.9.3/bowser.min.js","test_files/distill-2.2.21/template.v2.js","test_files/jquery-1.11.3/jquery.min.js","test_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
-  
-  <style type="text/css">
-  
-  /* Theme (user-documented overrideables for nav appearance) */
-  
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #455a64;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  .distill-site-header {
-  
-  }
-  
-  .distill-site-footer {
-  
-  }
-  
-  
-  /* Site Header */
-  
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-  
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-  
-  
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-  
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-  
-  .distill-site-header .title {
-    font-size: 18px;
-  }
-  
-  .distill-site-header .logo {
-    padding: 0;
-  }
-  
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-  
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-  
-  
-  
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-  
-  
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-  
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-  
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-  
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-dropdown-active {
-    display: block;
-  }
-  
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-  
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-  
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative;}
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  
-  /* Site Footer */
-  
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  /* Headroom */
-  
-  d-title {
-    padding-top: 6rem;
-  }
-  
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-  
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-  
-  .headroom--unpinned {
-    top: -100px;
-  }
-  
-  .headroom--pinned {
-    top: 0;
-  }
-  
-  </style>
-  
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -1254,406 +924,188 @@
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="Article_1_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="Article_1_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="Article_1_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="Article_1_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Genetics research","authors":[]}
+{"title":"Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses","authors":[{"author":"Rafael Salamone","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2019-10-16T00:00:00.000+02:00","citationText":"Salamone, 2019"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Rafael's blog</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="english-activity.html">My english activity log</a>
-<a href="about.html">About</a>
-<a href="https://github.com/RSalamone/Rafael-Salamone-blog">
-<i class="fab fa-github"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-<style type="text/css">
-
-/* Styles for listing layout (hide title) */
-.layout-listing d-title, .layout-listing .d-title {
-  display: none;
-}
-
-/* Styles for posts lists (not auto-injected) */
-
-
-.posts-with-sidebar {
-  padding-left: 45px;
-  padding-right: 45px;
-}
-
-.posts-list .description h2,
-.posts-list .description p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-}
-
-.posts-list .description h2 {
-  font-weight: 700;
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.posts-list h2.post-tag {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 12px;
-}
-.posts-list {
-  margin-top: 60px;
-  margin-bottom: 24px;
-}
-
-.posts-list .post-preview {
-  text-decoration: none;
-  overflow: hidden;
-  display: block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 24px 0;
-}
-
-.post-preview-last {
-  border-bottom: none !important;
-}
-
-.posts-list .posts-list-caption {
-  grid-column: screen;
-  font-weight: 400;
-}
-
-.posts-list .post-preview h2 {
-  margin: 0 0 6px 0;
-  line-height: 1.2em;
-  font-style: normal;
-  font-size: 24px;
-}
-
-.posts-list .post-preview p {
-  margin: 0 0 12px 0;
-  line-height: 1.4em;
-  font-size: 16px;
-}
-
-.posts-list .post-preview .thumbnail {
-  box-sizing: border-box;
-  margin-bottom: 24px;
-  position: relative;
-  max-width: 500px;
-}
-.posts-list .post-preview img {
-  width: 100%;
-  display: block;
-}
-
-.posts-list .metadata {
-  font-size: 12px;
-  line-height: 1.4em;
-  margin-bottom: 18px;
-}
-
-.posts-list .metadata > * {
-  display: inline-block;
-}
-
-.posts-list .metadata .publishedDate {
-  margin-right: 1em;
-}
-
-.posts-list .metadata .tags {
-  margin-top: 1em;
-}
-
-.posts-list .tags .tag {
-  color: rgba(0,0,0,0.67);
-  padding: 0.3em 0.5em;
-  margin: 0;
-  font-size: 80%;
-  border: 1px solid rgba(0,0,0,0.4);
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.posts-list img {
-  opacity: 1;
-}
-
-.posts-list img[data-src] {
-  opacity: 0;
-}
-
-.posts-more {
-  clear: both;
-}
-
-
-.posts-sidebar {
-  font-size: 16px;
-}
-
-.posts-sidebar h3 {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.sidebar-section {
-  margin-bottom: 30px;
-}
-
-.categories ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.categories li {
-  color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 0;
-}
-
-.categories li>a {
-  border-bottom: none;
-}
-
-.categories li>a:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-.categories .active {
-  font-weight: 600;
-}
-
-.categories .category-count {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-
-@media(min-width: 768px) {
-  .posts-list .post-preview h2 {
-    font-size: 26px;
-  }
-  .posts-list .post-preview .thumbnail {
-    float: right;
-    width: 35%;
-    margin-bottom: 0;
-  }
-  .posts-list .post-preview .description {
-    float: left;
-    width: 45%;
-  }
-  .posts-list .post-preview .metadata {
-    float: left;
-    width: 15%;
-    margin-top: 8px;
-  }
-  .posts-list .post-preview p {
-    margin: 0 0 12px 0;
-    line-height: 1.5em;
-    font-size: 16px;
-  }
-  .posts-with-sidebar .posts-list {
-    float: left;
-    width: 72%;
-  }
-  .posts-with-sidebar .posts-sidebar {
-    float: right;
-    width: 20%;
-    margin-top: 60px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-}
-
-.downlevel .posts-list .post-preview {
-  color: inherit;
-}
-
-</style>
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace("#", "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if (category == page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption">Genetics research</h1>
-<a href="posts/2019-10-02-Article 1/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Oct. 15, 2019</div>
-</div>
-<div class="thumbnail"></div>
-<div class="description">
-<h2>Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses</h2>
-<p></p>
-</div>
-</a>
-<a href="posts/2019-09-18-Article 2/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 18, 2019</div>
-</div>
-<div class="thumbnail">
-<img data-src="https://hhp-blog.s3.amazonaws.com/2016/12/iStock-473718564.jpg"/>
-</div>
-<div class="description">
-<h2>Article 2</h2>
-<p></p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Genetics research</h1>
+<h1>Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses</h1>
 
 </div>
 
+<div class="d-byline">
+  Rafael Salamone true 
+  
+<br/>10-16-2019
+</div>
 
 <div class="d-article">
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
+<h1 id="article">Article</h1>
+<p>In animals, infections are fought by the immune system. Studies on an unusual virus infecting wild koalas, by a team of researchers from the University of Massachusetts Medical School and the University of Queensland, reveal a new form of <strong>“genome immunity.”</strong> The study appears October 10 in the journal Cell.</p>
+<p>earRetroviruses, including pathogens like HIV, incorporate into the chromosomes of host cells as part of their infectious lifecycle. <strong>Retroviruses</strong> don’t usually infect the <strong>germ cells</strong> that produce sperm and eggs and are therefore usually not <strong>passed</strong> from generation to generation, but this has happened several times during evolution. Out of the entire 3 billion nucleotides of the human genome, only 1.5% of the sequence forms the 20,000 genes that code for proteins – and 8% of the human genome comes from fragments of viruses. These pathogen invasions of the genome have sometimes been beneficial. For example, a gene <strong>“co-opted”</strong> from a virus is required for formation of the placenta in all mammals, including humans.</p>
+<p>Retroviral infection of germ cells has been a rare but important <strong>driving force</strong> in human evolution. But how the germ cells in mammals respond to pathogen invasion has not been previously described and might be quite different than other cells of the body. KoRV-A is a retrovirus <strong>sweeping through</strong> the wild koala population of Australia and is associated with susceptibility to infection and cancer. KoRV-A spreads between individual animals, like most viruses. <strong>Surprisingly</strong>, KoRV-A also infects the <strong>germline</strong> cells, and most wild koalas are born with this pathogen as part of the genetic material of every cell in the body. The team used this system to see how germ cells respond to a retrovirus. Their findings suggest that that germ cells recognize an essential step in the viral life cycle and turn it against the invader to <strong>suppress</strong> genome infection. These studies <strong>shed new light on</strong> interactions between viruses and the genetic <strong>“blueprint,”</strong> written in the genome.</p>
+<p>“KoRV-A infection of the koala germline is happening now, and lets us look at genome evolution in real time,” says William E. Theurkauf, PhD, professor of molecular medicine at UMass Medical School, a senior author of the study.</p>
+<p>“What we are seeing with koalas is something that every organism on the planet has <strong>gone through</strong>. Animals get infected by retroviruses that enter the germline cells. These viruses multiply and insert into the chromosomes, altering host genome organization and function, and the process continues until the invader is <strong>tamed</strong> by the host. At the end of this infection cycle, the host has changed,” says co-senior author Zhiping Weng, professor in the Program of Bioinformatics and <strong>Integrative Biology</strong> at UMass Medical School.</p>
+<p>“What we’ve uncovered, we believe, is an”innate&quot; genome immune system that can tell a virus from one of your genes,&quot; says Theurkauf. “We think this is getting at how your genome says, ‘This is something we want; this is a gene.’ And, ‘That is something we don’t want; that’s a virus’.”</p>
+<p>Most host genes are interrupted by <strong>spacer sequences</strong> called introns, which are removed in a process called <strong>splicing</strong>, to produce functional mRNAs that can make proteins. Splicing is a <strong>hallmark</strong> of normally cellular genes. Retroviruses also have introns, which are removed to make a protein that forms the envelope that <strong>surrounds</strong> the virus particle. However, these invaders also have to produce an “unspliced” RNA, which is essential to replication and infection. The appears to be critical, as germ cells recognize these virus-specific RNAs and <strong>chop</strong> them into a distinct class of small RNAs, called “sense” piRNAs, which block the formation of the virus. Preliminary studies suggest that this process is conserved from insects to mammals.</p>
+<p>The team is working to expand their findings. “First, we’re trying to <strong>figure out</strong> is how the virus got into the germline in the first place,” says Weng. She and Theurkauf will conduct addition experiments to determine the <strong>machinery</strong> in the cells that recognize the difference in viral RNA, and, finally, they hope to better understand the process of <strong>chopping up</strong> the unspliced RNA transcripts, so they are no longer functional.</p>
+<p>“We think we can <strong>sort that out</strong> by looking at koalas,” says Theurkauf.</p>
+<p>This work was supported by in part by the National Institutes of Health and the Chinese National Natural Science Foundation.</p>
+<p>Word count : 711 words</p>
+<p>Source:</p>
+<h1 id="vocabulary">Vocabulary</h1>
+<table>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 61%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Word from the text</th>
+<th>Synonym/definition in English</th>
+<th>French translation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Genome immunity</td>
+<td>resistance to disease with one’s genome</td>
+<td>Immunité génomique</td>
+</tr>
+<tr class="even">
+<td>Retroviruses</td>
+<td>One of a group of viruses that cause cancers and include the famou AIDS virus)</td>
+<td>Rétrovirus</td>
+</tr>
+<tr class="odd">
+<td>Germ cells</td>
+<td>sexual reproductive cell</td>
+<td>Cellules germinatives</td>
+</tr>
+<tr class="even">
+<td>To pass</td>
+<td>to transfer to</td>
+<td>passer/transférer à</td>
+</tr>
+<tr class="odd">
+<td>Co-opted</td>
+<td>appropriated</td>
+<td>Co-opté/approprié</td>
+</tr>
+<tr class="even">
+<td>Driving force</td>
+<td>something that plays a key role</td>
+<td>Force motrice</td>
+</tr>
+<tr class="odd">
+<td>To sweep through</td>
+<td>To spread quickly</td>
+<td>Se répandre dans</td>
+</tr>
+<tr class="even">
+<td>Suprisingly</td>
+<td>Unexpectedly</td>
+<td>Etonnamment</td>
+</tr>
+<tr class="odd">
+<td>Germline</td>
+<td>The germ line is the set of cells from stem cells to gametes</td>
+<td>Lignée germinale</td>
+</tr>
+<tr class="even">
+<td>To shed new light on</td>
+<td>To clarify/explain</td>
+<td>apporter un nouvel éclairage à</td>
+</tr>
+<tr class="odd">
+<td>Blueprint</td>
+<td>Plan</td>
+<td>Plan</td>
+</tr>
+<tr class="even">
+<td>To go through</td>
+<td>To endure</td>
+<td>Traverser</td>
+</tr>
+<tr class="odd">
+<td>Tamed</td>
+<td>Domesticated</td>
+<td>Apprivoisé</td>
+</tr>
+<tr class="even">
+<td>Integrative Biology</td>
+<td>a recent field of biology that studies living organisms as the systems they are in reality, as opposed to historical approaches that tend to break down the study at all levels, in biology, physiology, biochemistry</td>
+<td>Biology intégrative</td>
+</tr>
+<tr class="odd">
+<td>Spacer sequences</td>
+<td>sequences that separate other sequences from each other</td>
+<td>Séquences d’espacement</td>
+</tr>
+<tr class="even">
+<td>Splicing</td>
+<td>A process that removes the intervening, non-coding sequences of genes (introns) from pre-mRNA and joins the protein-coding sequences (exons) together in order to enable translation of mRNA into a protein</td>
+<td>Epissage</td>
+</tr>
+<tr class="odd">
+<td>Hallmark</td>
+<td>Distinctive characteristic</td>
+<td>Caractéristique principale</td>
+</tr>
+<tr class="even">
+<td>To surround</td>
+<td>To be all arround</td>
+<td>Entourer</td>
+</tr>
+<tr class="odd">
+<td>To chop</td>
+<td>Cut into pieces</td>
+<td>Couper</td>
+</tr>
+<tr class="even">
+<td>To figure out</td>
+<td>To understand</td>
+<td>Comprendre</td>
+</tr>
+<tr class="odd">
+<td>Machinery</td>
+<td>The organization or structure of something or for doing something</td>
+<td>Machinerie</td>
+</tr>
+<tr class="even">
+<td>Process of chopping up</td>
+<td>Cutting processus</td>
+<td>Processus de découpage</td>
+</tr>
+<tr class="odd">
+<td>To sort out</td>
+<td>To resolve</td>
+<td>Régler</td>
+</tr>
+</tbody>
+</table>
+<p>#Analysis</p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
