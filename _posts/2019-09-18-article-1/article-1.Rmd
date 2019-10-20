@@ -4,7 +4,7 @@ author:
   - name: Rafael Salamone
 date: 09-18-2019
 categories: 
-preview: https://hhp-blog.s3.amazonaws.com/2016/12/iStock-473718564.jpg
+preview: img
 output:
   distill::distill_article:
     self_contained: false
