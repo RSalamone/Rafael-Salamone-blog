@@ -1,18 +1,18 @@
 [
   {
     "path": "posts/2019-10-02-test/",
-    "title": "Article n°1",
+    "title": "Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses",
     "description": {},
     "author": [
       {
-        "name": "Salamone Rafael",
+        "name": "Rafael Salamone",
         "url": {}
       }
     ],
     "date": "2019-10-02",
     "categories": [],
     "preview": {},
-    "last_modified": "2019-10-07T15:59:22+02:00"
+    "last_modified": "2019-10-20T12:02:59+02:00"
   },
   {
     "path": "posts/2019-09-18-article-1/",
