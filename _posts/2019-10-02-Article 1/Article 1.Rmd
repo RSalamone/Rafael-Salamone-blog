@@ -69,7 +69,7 @@ Machinery | The organization or structure of something or for doing something| M
 Process of chopping up | Cutting processus | Processus de découpage 
 To sort out | To resolve | Régler
 
-# Analysis
+# Analysis table
 
 _____________ | ____________
 ------------- | -------------
