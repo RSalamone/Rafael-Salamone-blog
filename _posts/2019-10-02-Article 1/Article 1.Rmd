@@ -71,7 +71,7 @@ To sort out | To resolve | Régler
 
 # Analysis table
 
-_____________ | ____________
+------        | ---------
 ------------- | -------------
 | Researchers | University of Massachusetts Medical School and the University of Queensland (lead authors: Weng. She and Theurkauf)
 | Published in ? | ScienceDaily, October 10, 2019
