@@ -37,6 +37,8 @@ The team is working to expand their findings. "First, we're trying to **figure o
 
 This work was supported by in part by the National Institutes of Health and the Chinese National Natural Science Foundation.
 
+Article in pdf: https://github.com/RSalamone/Rafael-Salamone-blog/blob/master/ressources/Article_n1.pdf
+
 Word count : 711 words 
 
 Source: https://www.sciencedaily.com/releases/2019/10/191010113231.htm
