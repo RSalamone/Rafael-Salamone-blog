@@ -1,0 +1,31 @@
+---
+title: "Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses"
+author: "Rafael Salamone"
+date: "10/20/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+In animals, infections are fought by the immune system. Studies on an unusual virus infecting wild koalas, by a team of researchers from the University of Massachusetts Medical School and the University of Queensland, reveal a new form of **"genome immunity."** The study appears October 10 in the journal Cell.
+
+earRetroviruses, including pathogens like HIV, incorporate into the chromosomes of host cells as part of their infectious lifecycle. **Retroviruses** don't usually infect the **germ cells** that produce sperm and eggs and are therefore usually not **passed** from generation to generation, but this has happened several times during evolution. Out of the entire 3 billion nucleotides of the human genome, only 1.5% of the sequence forms the 20,000 genes that code for proteins -- and 8% of the human genome comes from fragments of viruses. These pathogen invasions of the genome have sometimes been beneficial. For example, a gene **"co-opted"** from a virus is required for formation of the placenta in all mammals, including humans.
+
+Retroviral infection of germ cells has been a rare but important **driving force** in human evolution. But how the germ cells in mammals respond to pathogen invasion has not been previously described and might be quite different than other cells of the body. KoRV-A is a retrovirus **sweeping through** the wild koala population of Australia and is associated with susceptibility to infection and cancer. KoRV-A spreads between individual animals, like most viruses. **Surprisingly**, KoRV-A also infects the **germline** cells, and most wild koalas are born with this pathogen as part of the genetic material of every cell in the body. The team used this system to see how germ cells respond to a retrovirus. Their findings suggest that that germ cells recognize an essential step in the viral life cycle and turn it against the invader to **suppress** genome infection. These studies **shed new light on** interactions between viruses and the genetic **"blueprint,"** written in the genome.
+
+"KoRV-A infection of the koala germline is happening now, and lets us look at genome evolution in real time," says William E. Theurkauf, PhD, professor of molecular medicine at UMass Medical School, a senior author of the study.
+
+"What we are seeing with koalas is something that every organism on the planet has **gone through**. Animals get infected by retroviruses that enter the germline cells. These viruses multiply and insert into the chromosomes, altering host genome organization and function, and the process continues until the invader is **tamed** by the host. At the end of this infection cycle, the host has changed," says co-senior author Zhiping Weng, professor in the Program of Bioinformatics and **Integrative Biology** at UMass Medical School.
+
+"What we've uncovered, we believe, is an "innate" genome immune system that can tell a virus from one of your genes," says Theurkauf. "We think this is getting at how your genome says, 'This is something we want; this is a gene.' And, 'That is something we don't want; that's a virus'."
+
+Most host genes are interrupted by **spacer sequences** called introns, which are removed in a process called **splicing**, to produce functional mRNAs that can make proteins. Splicing is a **hallmark** of normally cellular genes. Retroviruses also have introns, which are removed to make a protein that forms the envelope that **surrounds** the virus particle. However, these invaders also have to produce an "unspliced" RNA, which is essential to replication and infection. The appears to be critical, as germ cells recognize these virus-specific RNAs and **chop** them into a distinct class of small RNAs, called "sense" piRNAs, which block the formation of the virus. Preliminary studies suggest that this process is conserved from insects to mammals.
+
+The team is working to expand their findings. "First, we're trying to **figure out** is how the virus got into the germline in the first place," says Weng. She and Theurkauf will conduct addition experiments to determine the **machinery** in the cells that recognize the difference in viral RNA, and, finally, they hope to better understand the process of **chopping up** the unspliced RNA transcripts, so they are no longer functional.
+
+"We think we can **sort that out** by looking at koalas," says Theurkauf.
+
+This work was supported by in part by the National Institutes of Health and the Chinese National Natural Science Foundation.
