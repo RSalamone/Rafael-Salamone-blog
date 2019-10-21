@@ -46,22 +46,22 @@ Source: https://www.sciencedaily.com/releases/2019/10/191010113231.htm
 # Vocabulary 
 Word from the text | Synonym/definition in English | French translation
 ------------- | -------------|-----------------------------------------
-Genome immunity | resistance to disease with one's genome | Immunité génomique
+Genome immunity | Resistance to disease with one's genome | Immunité génomique
 Retroviruses | One of a group of viruses that cause cancers and include the famous AIDS virus) | Rétrovirus 
-Germ cells | sexual reproductive cell | Cellules germinatives
-To pass | to transfer to | passer/transférer à 
+Germ cells | Sexual reproductive cell | Cellules germinatives
+To pass | To transfer to | Passer/transférer à 
 Co-opted | appropriated | Co-opté/approprié
-Driving force | something that plays a key role | Force motrice
+Driving force | Something that plays a key role | Force motrice
 To sweep through | To spread quickly | Se répandre dans
 Suprisingly | Unexpectedly| Etonnamment 
 Germline | The germ line is the set of cells from stem cells to gametes | Lignée germinale
-To suppress | To eliminate | éliminer
-To shed new light on | To clarify/explain | apporter un nouvel éclairage à
+To suppress | To eliminate | Eliminer
+To shed new light on | To clarify/explain | Apporter un nouvel éclairage à
 Blueprint | Plan | Plan
 To go through | To endure| Traverser
 Tamed | Domesticated | Apprivoisé 
-Integrative Biology | a recent field of biology that studies living organisms as the systems they are in reality, as opposed to historical approaches that tend to break down the study at all levels, in biology, physiology, biochemistry| Biology intégrative
-Spacer sequences | sequences that separate other sequences from each other | Séquences d’espacement
+Integrative Biology | A recent field of biology that studies living organisms like the systems they are in reality, as opposed to historical approaches that want to break down the study at all levels, in biology, physiology, biochemistry| Biologie intégrative
+Spacer sequences | Sequences that separate other sequences from each other | Séquences d’espacement
 Splicing | A process that removes the intervening, non-coding sequences of genes (introns) from pre-mRNA and joins the protein-coding sequences (exons) together in order to enable translation of mRNA into a protein| Epissage
 Hallmark | Distinctive characteristic| Caractéristique principale
 To surround | To be all arround| Entourer
