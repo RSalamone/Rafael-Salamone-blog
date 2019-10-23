@@ -4,10 +4,16 @@ title: "My english activity log"
 
 
 
-# Films 
+# Films
 
 * Prisonners
 * Good morning england 
+
+# Serie
+
+* Doctor Who 
+* Breaking Bad 
+* Vikings 
 
 # Youtube
 
@@ -16,7 +22,11 @@ title: "My english activity log"
 * Documentaries 
 * Streams 
 
-# Manga
+# Books 
+
+# Mangas
 
 * Jojo's bizarre adventure
 * One punch man 
+
+# Newspapers
