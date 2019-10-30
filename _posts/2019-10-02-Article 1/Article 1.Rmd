@@ -15,15 +15,15 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Article 
 ![](https://www.sciencedaily.com/images/2019/10/191010113231_1_540x360.jpg)
+Source of the picture: https://www.sciencedaily.com/images/2019/10/191010113231_1_540x360.jpg
 
-Article in pdf: https://github.com/RSalamone/Rafael-Salamone-blog/blob/master/ressources/Article_n1.pdf
-
-Word count : 711 words 
+# Source of the article and word count
 
 Source: https://www.sciencedaily.com/releases/2019/10/191010113231.htm 
 October 10, 2019
+
+Word count : 711 words 
 
 # Vocabulary 
 Word from the text | Synonym/definition in English | French translation
