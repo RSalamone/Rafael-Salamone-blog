@@ -1,5 +1,20 @@
 [
   {
+    "path": "posts/2019-11-03-article-2/",
+    "title": "Article 2: Genes play a role in dog breed differences in behavior",
+    "description": {},
+    "author": [
+      {
+        "name": "Rafael Salamone",
+        "url": {}
+      }
+    ],
+    "date": "2019-11-03",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2019-11-03T20:31:08+01:00"
+  },
+  {
     "path": "posts/2019-10-02-Article 1/",
     "title": "Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses",
     "description": {},
@@ -12,6 +27,6 @@
     "date": "2019-10-16",
     "categories": [],
     "preview": {},
-    "last_modified": "2019-10-30T19:31:06+01:00"
+    "last_modified": "2019-11-03T20:08:28+01:00"
   }
 ]
