@@ -1,0 +1,87 @@
+---
+title: "Article 2: Genes play a role in dog breed differences in behavior"
+description: 
+author:
+  - name: Rafael Salamone
+    url: {}
+date: 11-03-2019
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+Given the **dazzling** array of dog **breeds**, from dachshunds to mastiffs, from poodles to bloodhounds, it's easy to forget that most of that diversity arose only in the last few centuries or so, thanks to human **tinkering**. People have bred dogs for their looks, but **the lion's share** of breeding efforts have **taken aim at** **eliciting** particular behaviors, according to the University of Pennsylvania's James A. Serpell.
+
+"If you look at the evolution of the dog, selection has been **primarily** for behaviors: hunting behaviors, guarding behaviors, or giving **companionship** to humans," he says.
+
+In a new study, Serpell and colleagues Evan L. MacLean of the University of Arizona, Noah Snyder-Mackler of the University of Washington, and Bridgett M. vonHoldt of Princeton University offer strong evidence to support what scientists have long suspected: that some of the behaviors that help **characterize** breeds -- a drive to chase, for example, or aggression toward strangers -- are associated with distinct genetic differences between them. Their findings were published in the Proceedings of the Royal Society B.
+
+"Dogs present a good model for understanding what portion of the variation in their behavior is attributable to differences in genetics, and how much to their environment and experiences," says Snyder-Mackler, who earned his undergraduate and doctoral degrees from Penn.
+
+What seems obvious -- that genes can influence an individual's behaviors -- has not always been easy to support with evidence, in large part because behaviors are complex traits. Tendencies such as aggression, anxiety, or a compulsion to chase anything that moves are governed by many genes, not just one.
+
+But dog breeds, being highly **inbred**, have allowed researchers to make progress in this area. Serpell and his colleagues recognized that, if a dog breed is associated with a particular behavior that distinguishes it from other breeds, it might be easier to detect the genetic variants contributing to that behavior if you compared that breed's genome to a host of others.
+
+It helped that Serpell was in possession of a **treasure-trove** of behavior data from C-BARQ, short for Canine Behavioral Assessment and Research Questionnaire, a survey that more than 50,000 dog owners have **filled out** about their pets. C-BARQ returns a result on 14 behavioral "factors" about each dog **surveyed**, giving a measure of traits such as stranger-directed aggression, excitability, energy level, and predatory **chasing drive**.
+
+For this study, the researchers pulled 14,020 of those **entries** that included information about pure-bred dogs. To look for associations with genetics, they borrowed data from two earlier studies, together representing 5,697 dogs, for which 172,000 points in the genome had been sequenced.
+
+They found that about half of the variation in the 14 measured behaviors across breeds could be attributed to genetics -- a greater proportion that previous studies have found.
+
+"This was based on breed-average behaviors," notes MacLean, "because we didn't have behavioral and genetic information from the same animals."
+
+What **stood out** to the researchers was that the traits with the highest rates of heritability -- in other words, those that seemed to be most influenced by genetic factors rather than environmental ones -- were behaviors such as **trainability**, predatory chasing, **stranger-directed aggression**, and attention seeking. For these traits, genetics explained 60 to 70 percent of variation across breeds.
+
+"These are exactly the types of traits that have been selected for in particular breeds of dogs," says Serpell. "So for trainability, you're thinking of breeds like border collies that have to respond to human signals to accomplish complicated tasks; for chasing behavior you can think of something like a greyhound, which is innately predisposed to chase anything that runs; and for stranger-directed aggression you might focus on some of the guard dog breeds that are highly protective and tend to respond in a hostile way to unfamiliar people."
+
+Taking advantage of their vast pool of genomic data, the researchers looked for genetic variants associated with breed differences in the 14 C-BARQ traits. They found 131 variants tightly linked to these behaviors. Some were located in genes that have been implicated in influencing behavior, including in humans. But many were unknown and provide **fodder** for future study.
+
+"This gives us an encouraging start and places to look," says MacLean. "We have **ongoing** projects where we've obtained genetic and behavioral data from the same individuals, so we'll be able to dive deeper into some of these traits and variants to see if the patterns we found here hold up."
+
+If these genetic differences influence behavior, a good **assumption** would be that they somehow affect the brain. So, as a final step, the team looked to see where the genes in which key variants appeared were expressed in the body. Their analysis showed the genes were much more likely to be expressed in the brain than in other tissues in the body.
+
+**Of note**, however, is that the researchers' results also leave plenty of room for individual differences and an animal's environment in influencing behavior.
+"It's important to keep in mind that we looked at breed averages for behavior," says Snyder-Mackler. "We're not at a point yet where we can look at an individual's genome and predict behavior. Environment and training still has a very, very strong effect."
+
+![](/media/sf_shared/projects/Rafael-Salamone-blog/hunting-dog-training.jpg) 
+
+# Source of the article and word count
+
+Source: https://www.sciencedaily.com/releases/2019/10/191008165817.htm October 8, 2019
+
+Word count : 860
+
+# Vocabulary 
+Word from the text | Synonym/definition in English | French translation
+------------- | -------------|---------------------------------------------
+dazzling| that blinds | éblouissant
+breed | race | race
+tinkering | do-it-yourself | bricolage
+the lion's share | the largest portion of | la plus grande partie
+to take aim at | aim for | viser à 
+eliciting | get | obtenir 
+primarily | mainly | principalement 
+companionship | company | compagnie 
+characterize | be typycal of something | caractériser
+inbred | innate | inné
+treasure-love | collection of precious things | trésor 
+to fill out | complete (a form) | compléter 
+surveyed | examined | étudié/examiné
+chasing drive | hunting instinct | instinct de chasse
+entry | record | entrée
+stand out | be noticeable | retenir l'attention 
+trainabilty | capacity of training | capacité à s'entraîner
+stranger-directed aggression| an aggression coordinated by a stranger | une agression dirigée par un étranger
+fodder | subject matter | matière 
+ongoing | continuing | en cours
+assumption | supposition | hypothèse
+of note | important | notable
+# Analysis table
+
+------        | ---------
+------------- | -------------

@@ -20,7 +20,7 @@ Source of the picture: https://www.sciencedaily.com/images/2019/10/191010113231_
 
 # Source of the article and word count
 
-Source: https://www.sciencedaily.com/releases/2019/10/191010113231.htm 
+Source : https://www.sciencedaily.com/releases/2019/10/191010113231.htm 
 October 10, 2019
 
 Word count : 711 words 
