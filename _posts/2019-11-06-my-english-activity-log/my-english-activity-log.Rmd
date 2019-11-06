@@ -1,0 +1,44 @@
+---
+title: "My english activity log"
+description:
+author: 
+  - name: Rafael Salamone
+    url: {}
+date: 9-10-2019
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Films
+
+* Prisoners
+* Good morning England 
+
+# Series
+
+* Doctor Who 
+* Breaking Bad 
+* Vikings 
+
+# Youtube
+
+* Musics
+* Podcasts
+* Documentaries 
+* Streams 
+
+# Books 
+
+# Mangas
+
+* Jojo's bizarre adventure
+* One punch man 
+
+# Newspapers
+
+

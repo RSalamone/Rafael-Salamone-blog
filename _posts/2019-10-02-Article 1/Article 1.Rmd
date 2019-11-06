@@ -5,6 +5,7 @@ author:
   - name: Rafael Salamone
     url: {}
 date: 10-16-2019
+preview: https://www.sciencedaily.com/images/2019/10/191010113231_1_540x360.jpg
 output: 
   distill::distill_article:
     self_contained: false
