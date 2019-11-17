@@ -1,0 +1,54 @@
+---
+title: "Article 3: Parasitic plants use stolen genes to make them better parasites"
+description: |
+author:
+  - name: Rafael Salamone
+    url: {}
+date: 11-17-2019
+preview: https://scx1.b-cdn.net/csz/news/800/2019/parasiticpla.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+![](https://scx1.b-cdn.net/csz/news/800/2019/parasiticpla.jpg)
+
+# Source of the article and word count
+
+Source:https://www.sciencedaily.com/releases/2019/07/190722182130.htm July 22, 2019
+
+Word count: 942 
+
+# Vocabulary 
+Word from the text | Synonym/definition in English | French translation
+------------- | -------------|---------------------------------------------
+parasitic | living off another organism | parasite
+to siphon off | in this context, it means to steal the host's nutrients | siphonner
+dodder | cuscuta is a genus of roughly 100–170 species of red, orange, or yellow parasitic plants | cuscutes
+to latch onto | to cling | s'accrocher à 
+haustoria | a haustorium is an organ of a parasitic plant or fungus, which is inserted into the tissues of the host plant to absorb water and nutrients from the cells | haustorium
+to tap | to find way of using | puiser dans
+to wrap oneself | cover | s'envelopper soi-même 
+dataset | collection of records | ensemble de données
+to disrupt | to interrupt | interrompre 
+to come over | to transmit | transmettre
+whether | if | si 
+one-way street | that only goes one way | à sens unique
+extensive | important | important
+
+# Analysis table
+
+------        | ---------
+------------- | -------------
+| Researchers | Zhenzhen Yang, Eric K. Wafula, Gunjune Kim, Saima Shahid, Joel R. McNeal, Paula E. Ralph, Prakash R. Timilsena, Wen-bin Yu, Elizabeth A. Kelly, Huiting Zhang, Thomas Nate Person, Naomi S. Altman, Michael J. Axtell, James H. Westwood, Claude W. dePamphilis.
+| Published in ? | ScienceDaily, July 22, 2019
+| General topic ? | Researchers have discovered that dodders, a type of parasitic plant, use genes from their host to better extract their nutrients 
+| Procedure/what was examined? | 
+| Conclusions/discovery ? | 
+| Remaining questions | 1) How genetic material is transferred from the host to the parasite and is this transfer one-way or can it sometimes be in both directions ? 2) Can horizontal gene transfer also occur between other plant species and even between non-parasitic plants or other organisms as complex as this one ?
