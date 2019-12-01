@@ -58,7 +58,7 @@ one-celled yeasts | fungi composed of a single cell | levures unicellulaires
 to adhere to | to follow | à suivre
 drill down | focus on | examiner de près
 layer | level | niveau
-adverse reactions| réactions négatives
+adverse reaction| any unexpected or dangerous reaction to a drug | réaction indésirable
 scarcity | lack | pénurie
 cellular machinery | physical and chemical components of the cell that function together to carry out the different physiological functions of the cell | machinerie cellulaire
 to shift | to change | passer
