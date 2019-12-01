@@ -15,27 +15,6 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The discovery in the 1990s that a mutation in a single gene of an experimental worm could double its lifespan **set off** a **stampede** of research on the molecular biology of aging and **triggered hopes** that drug therapies or other interventions could be developed to extend healthy human lifespan. But as is often the case in science, the genetic regulation of aging is more complicated than it first appeared.
-
-The nature of this complexity is illuminated in a new paper by MDI Biological Laboratory scientists Jarod Rollins, Ph.D., and Aric Rogers, Ph.D., co-corresponding authors, which describes the mechanisms by which longevity is regulated post-transcriptionally, or after a genetic blueprint has been transcribed from an organism's DNA. The identification of these mechanisms will serve as a **road map** for screening new, more specific drugs to prolong healthy lifespan.
-
-The research was conducted in C. elegans, a tiny nematode worm that is a popular model in aging research because of its genetic similarity to humans and because of its short lifespan, which allows scientists to easily study lifespan-extending interventions.
-
-"The MDI Biological Laboratory is deeply **committed** to translational research, or research that can be translated into therapies to improve human health in our focus areas of regeneration and aging," said Hermann Haller, M.D., president. "Because it identifies new potential drug targets in the form of the post-transcriptional mechanisms governing longevity, this research will be hugely important in screening for new therapies to extend healthy human lifespan."
-
-The paper, "Dietary Restriction Induces Post-transcriptional Regulation of Longevity Genes," which was recently published in the journal Life Science Alliance, is the product of five years of research in the Rollins and Rogers laboratories at the MDI Biological Laboratory.
-
-The scientists used bioinformatics, or data analysis, techniques to compare genes in worms fed normal diets with those whose diets were restricted. Dietary restriction, or DR, which refers to calorie restriction without malnutrition, is the most robust intervention known for extending lifespan, and has been demonstrated to increase lifespan and **delay** the **onset** of age-related degenerative disease in a wide range of species, from **one-celled yeasts** to primates.
-
-The scientific evidence on the lifespan-prolonging effects of DR has ignited a quest to develop "DR mimetics," or drugs that mimic the effects of DR without the need to dramatically reduce calories. In addition to being difficult to **adhere** to, such a diet is associated with negative side effects including increased sensitivity to cold and loss of energy and libido. The identification of these new mechanisms opens up the possibility of developing new, more precise DR mimetics.
-
-"Science already knows a lot about how longevity is regulated at the genetic level, but the picture isn't complete if we just look at transcription," Rollins said. "With this research, we are **drilling down** to additional **layers** of regulation, which brings us one step closer to extending healthy human lifespan without the need to dramatically restrict calories or to take drugs that, because they are less selectively targeted, are more likely to cause **adverse** reactions."
-
-The goal of DR mimetics is to access the adaptive programs in the cell that are activated when an organism is exposed to an existential threat such as a **scarcity** of nutrients. In such a case, the **cellular machinery** **shifts** from an emphasis on growth and reproduction, which is costly in terms of cellular resources, to an emphasis on survival. In order to ensure that an organism survives to reproduce when conditions improve, nature seeks to ensure that its cells function at peak efficiency.
-
-In addition to confirming existing theories about the adaptive response to DR, the paper highlights the importance of post-transcriptional regulation -- or regulation that occurs after a gene has been "read" or "transcribed" from the DNA in the nucleus of the cell. The identification of the mechanisms that govern post-transcriptional levels of gene expression **charts a pathway** for **screening**, or testing, drugs that may have pro-longevity effects.
-
-"We found that hundreds of genes are being regulated almost solely at the post-transcriptional level," Rollins said. "These are genes that weren't previously known to have a role in longevity. This level of regulation can be missed if scientists are looking at the transcriptional level alone. The identification of these mechanisms gives us a better idea of how DR works and opens up a whole new area of potential investigation for the aging biology community."
 
 ![Example of post-transcriptional modification from Pre-mRNA to mRNA. Source : https://cronodon.com/BioTech/Ribosomes.html](https://cronodon.com/sitebuilder/images/post-Transcriptional_mod-629x417.jpg)
 
@@ -52,11 +31,12 @@ stampede of research | large number of people who focus on research | une ruée 
 to trigger hopes | to provoke | susciter l'espoir
 road map | route plan for drivers | carte routière
 committed | be dedicated to | engagé
+dietary restriction | a reduction of particular or total nutrient intake without causing malnutrition | restriction alimentaire
 to delay | cause to be late | retarder
 onset | start | manifestation
 one-celled yeasts | fungi composed of a single cell | levures unicellulaires
 to adhere to | to follow | à suivre
-drill down | focus on | examiner de près
+to drill down | to focus on | examiner de près
 layer | level | niveau
 adverse reaction| any unexpected or dangerous reaction to a drug | réaction indésirable
 scarcity | lack | pénurie
@@ -71,7 +51,7 @@ screening | scan for abnormalities| dépistage
 ------------- | -------------
 | Researchers | Jarod A Rollins, Dan Shaffer, Santina S Snow, Pankaj Kapahi, Aric N Rogers
 | Published in ? | ScienceDaily, October 10, 2019
-| General topic ? | The researchers discovered that the aging process is managed by post-transcriptional mechanisms, a modification after reading the gene.
-| Procedure/what was examined? | 
-| Conclusions/discovery ? | 
-| Remaining questions |  
+| General topic ? | The researchers describes how the aging process is managed by post-transcriptional mechanisms, a modification after reading the gene, and how these mechanisms could extend our life span.
+| Procedure/what was examined? | They used data analysis to compare the genes between the worms on which they imposed normal feeding on some worms and limited feeding on others. This caloric restriction is a process of dietary restriction which is very effective in prolonging life and delaying the onset of degenerative disease. 
+| Conclusions/discovery ? | The discovery of post-transcription mechanisms will make it possible to chart a path towards drugs that could have positive effects on longevity About 100 genes that were responsible for the longevity process were modified by post-transcriptional mechanisms, whereas these genes were not known to play this role. Through the discovery of these roles we may learn more about how dietary restriction can extends life span.
+| Remaining questions |  /
