@@ -1,7 +1,7 @@
 [
   {
     "path": "posts/2019-11-28-article-4/",
-    "title": "Article 4",
+    "title": "Article 4: Scientists are decoding the genetic mechanisms of aging",
     "description": {},
     "author": [
       {
@@ -11,8 +11,8 @@
     ],
     "date": "2019-11-28",
     "categories": [],
-    "preview": {},
-    "last_modified": "2019-12-01T15:18:15+01:00"
+    "preview": "https://cronodon.com/sitebuilder/images/post-Transcriptional_mod-629x417.jpg",
+    "last_modified": "2019-12-01T15:21:23+01:00"
   },
   {
     "path": "posts/2019-11-17-article-3/",
