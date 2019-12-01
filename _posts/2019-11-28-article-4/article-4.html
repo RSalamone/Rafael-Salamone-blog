@@ -19,366 +19,36 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Rafael's blog: Genetics research</title>
+  <title>Article 4</title>
   
   
   
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2019-11-28"/>
+  <meta property="article:created" itemprop="dateCreated" content="2019-11-28"/>
+  <meta name="article:author" content="Rafael Salamone"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Rafael&#39;s blog: Genetics research"/>
+  <meta property="og:title" content="Article 4"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Rafael&#39;s blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Rafael&#39;s blog: Genetics research"/>
+  <meta property="twitter:title" content="Article 4"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Genetics research"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Article 4"]},{"type":"NULL"},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Rafael Salamone"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["11-28-2019"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
   
-  <script type="application/javascript">
-  
-    window.headroom_prevent_pin = false;
-  
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-  
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-  
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-  
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-  
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["article-4_files/bowser-1.9.3/bowser.min.js","article-4_files/distill-2.2.21/template.v2.js","article-4_files/jquery-1.11.3/jquery.min.js","article-4_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
-  
-  <style type="text/css">
-  
-  /* Theme (user-documented overrideables for nav appearance) */
-  
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #455a64;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  .distill-site-header {
-  
-  }
-  
-  .distill-site-footer {
-  
-  }
-  
-  
-  /* Site Header */
-  
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-  
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-  
-  
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-  
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-  
-  .distill-site-header .title {
-    font-size: 18px;
-  }
-  
-  .distill-site-header .logo {
-    padding: 0;
-  }
-  
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-  
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-  
-  
-  
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-  
-  
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-  
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-  
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-  
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-dropdown-active {
-    display: block;
-  }
-  
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-  
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-  
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative;}
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  
-  /* Site Footer */
-  
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  /* Headroom */
-  
-  d-title {
-    padding-top: 6rem;
-  }
-  
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-  
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-  
-  .headroom--unpinned {
-    top: -100px;
-  }
-  
-  .headroom--pinned {
-    top: 0;
-  }
-  
-  </style>
-  
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -1254,478 +924,199 @@
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="article-4_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="article-4_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="article-4_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="article-4_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <style type="text/css">
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #FF0000;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  .distill-site-header {
-  }
-  
-  .distill-site-footer {
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  </style>
   <!--/radix_placeholder_site_in_header-->
 
-  <link rel="stylesheet" href="styles.css" type="text/css"/>
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Genetics research","authors":[]}
+{"title":"Article 4","authors":[{"author":"Rafael Salamone","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2019-11-28T00:00:00.000+01:00","citationText":"Salamone, 2019"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Rafael's blog</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="english-activity.html">My english activity log</a>
-<a href="about.html">About</a>
-<a href="https://github.com/RSalamone/Rafael-Salamone-blog">
-<i class="fab fa-github"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-<style type="text/css">
-
-/* Styles for listing layout (hide title) */
-.layout-listing d-title, .layout-listing .d-title {
-  display: none;
-}
-
-/* Styles for posts lists (not auto-injected) */
-
-
-.posts-with-sidebar {
-  padding-left: 45px;
-  padding-right: 45px;
-}
-
-.posts-list .description h2,
-.posts-list .description p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-}
-
-.posts-list .description h2 {
-  font-weight: 700;
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.posts-list h2.post-tag {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 12px;
-}
-.posts-list {
-  margin-top: 60px;
-  margin-bottom: 24px;
-}
-
-.posts-list .post-preview {
-  text-decoration: none;
-  overflow: hidden;
-  display: block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 24px 0;
-}
-
-.post-preview-last {
-  border-bottom: none !important;
-}
-
-.posts-list .posts-list-caption {
-  grid-column: screen;
-  font-weight: 400;
-}
-
-.posts-list .post-preview h2 {
-  margin: 0 0 6px 0;
-  line-height: 1.2em;
-  font-style: normal;
-  font-size: 24px;
-}
-
-.posts-list .post-preview p {
-  margin: 0 0 12px 0;
-  line-height: 1.4em;
-  font-size: 16px;
-}
-
-.posts-list .post-preview .thumbnail {
-  box-sizing: border-box;
-  margin-bottom: 24px;
-  position: relative;
-  max-width: 500px;
-}
-.posts-list .post-preview img {
-  width: 100%;
-  display: block;
-}
-
-.posts-list .metadata {
-  font-size: 12px;
-  line-height: 1.4em;
-  margin-bottom: 18px;
-}
-
-.posts-list .metadata > * {
-  display: inline-block;
-}
-
-.posts-list .metadata .publishedDate {
-  margin-right: 1em;
-}
-
-.posts-list .metadata .tags {
-  margin-top: 1em;
-}
-
-.posts-list .tags .tag {
-  color: rgba(0,0,0,0.67);
-  padding: 0.3em 0.5em;
-  margin: 0;
-  font-size: 80%;
-  border: 1px solid rgba(0,0,0,0.4);
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.posts-list img {
-  opacity: 1;
-}
-
-.posts-list img[data-src] {
-  opacity: 0;
-}
-
-.posts-more {
-  clear: both;
-}
-
-
-.posts-sidebar {
-  font-size: 16px;
-}
-
-.posts-sidebar h3 {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.sidebar-section {
-  margin-bottom: 30px;
-}
-
-.categories ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.categories li {
-  color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 0;
-}
-
-.categories li>a {
-  border-bottom: none;
-}
-
-.categories li>a:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-.categories .active {
-  font-weight: 600;
-}
-
-.categories .category-count {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-
-@media(min-width: 768px) {
-  .posts-list .post-preview h2 {
-    font-size: 26px;
-  }
-  .posts-list .post-preview .thumbnail {
-    float: right;
-    width: 35%;
-    margin-bottom: 0;
-  }
-  .posts-list .post-preview .description {
-    float: left;
-    width: 45%;
-  }
-  .posts-list .post-preview .metadata {
-    float: left;
-    width: 15%;
-    margin-top: 8px;
-  }
-  .posts-list .post-preview p {
-    margin: 0 0 12px 0;
-    line-height: 1.5em;
-    font-size: 16px;
-  }
-  .posts-with-sidebar .posts-list {
-    float: left;
-    width: 72%;
-  }
-  .posts-with-sidebar .posts-sidebar {
-    float: right;
-    width: 20%;
-    margin-top: 60px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-}
-
-.downlevel .posts-list .post-preview {
-  color: inherit;
-}
-
-</style>
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace("#", "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if (category == page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption">Genetics research</h1>
-<a href="posts/2019-11-28-article-4/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 28, 2019</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Article 4</h2>
-<p></p>
-</div>
-</a>
-<a href="posts/2019-11-17-article-3/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 16, 2019</div>
-</div>
-<div class="thumbnail">
-<img data-src="https://scx1.b-cdn.net/csz/news/800/2019/parasiticpla.jpg"/>
-</div>
-<div class="description">
-<h2>Article 3: Parasitic plants use stolen genes to make them better parasites</h2>
-<p></p>
-</div>
-</a>
-<a href="posts/2019-11-03-article-2/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Nov. 3, 2019</div>
-</div>
-<div class="thumbnail">
-<img data-src="http://cdn.akc.org/content/article-body-image/gsp_bird_dogs.jpg"/>
-</div>
-<div class="description">
-<h2>Article 2: Genes play a role in dog breed differences in behavior</h2>
-<p></p>
-</div>
-</a>
-<a href="posts/2019-10-02-Article 1/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Oct. 16, 2019</div>
-</div>
-<div class="thumbnail">
-<img data-src="https://www.sciencedaily.com/images/2019/10/191010113231_1_540x360.jpg"/>
-</div>
-<div class="description">
-<h2>Article 1: Koala epidemic provides lesson in how DNA protects itself from viruses</h2>
-<p></p>
-</div>
-</a>
-<a href="posts/2019-11-06-my-english-activity-log/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 10, 2019</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>My english activity log</h2>
-<p></p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Genetics research</h1>
+<h1>Article 4</h1>
 
 </div>
 
+<div class="d-byline">
+  Rafael Salamone true 
+  
+<br/>11-28-2019
+</div>
 
 <div class="d-article">
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
+<p>The discovery in the 1990s that a mutation in a single gene of an experimental worm could double its lifespan <strong>set off</strong> a <strong>stampede</strong> of research on the molecular biology of aging and <strong>triggered hopes</strong> that drug therapies or other interventions could be developed to extend healthy human lifespan. But as is often the case in science, the genetic regulation of aging is more complicated than it first appeared.</p>
+<p>The nature of this complexity is illuminated in a new paper by MDI Biological Laboratory scientists Jarod Rollins, Ph.D., and Aric Rogers, Ph.D., co-corresponding authors, which describes the mechanisms by which longevity is regulated post-transcriptionally, or after a genetic blueprint has been transcribed from an organism’s DNA. The identification of these mechanisms will serve as a <strong>road map</strong> for screening new, more specific drugs to prolong healthy lifespan.</p>
+<p>The research was conducted in C. elegans, a tiny nematode worm that is a popular model in aging research because of its genetic similarity to humans and because of its short lifespan, which allows scientists to easily study lifespan-extending interventions.</p>
+<p>“The MDI Biological Laboratory is deeply <strong>committed</strong> to translational research, or research that can be translated into therapies to improve human health in our focus areas of regeneration and aging,” said Hermann Haller, M.D., president. “Because it identifies new potential drug targets in the form of the post-transcriptional mechanisms governing longevity, this research will be hugely important in screening for new therapies to extend healthy human lifespan.”</p>
+<p>The paper, “Dietary Restriction Induces Post-transcriptional Regulation of Longevity Genes,” which was recently published in the journal Life Science Alliance, is the product of five years of research in the Rollins and Rogers laboratories at the MDI Biological Laboratory.</p>
+<p>The scientists used bioinformatics, or data analysis, techniques to compare genes in worms fed normal diets with those whose diets were restricted. Dietary restriction, or DR, which refers to calorie restriction without malnutrition, is the most robust intervention known for extending lifespan, and has been demonstrated to increase lifespan and <strong>delay</strong> the <strong>onset</strong> of age-related degenerative disease in a wide range of species, from <strong>one-celled yeasts</strong> to primates.</p>
+<p>The scientific evidence on the lifespan-prolonging effects of DR has ignited a quest to develop “DR mimetics,” or drugs that mimic the effects of DR without the need to dramatically reduce calories. In addition to being difficult to <strong>adhere</strong> to, such a diet is associated with negative side effects including increased sensitivity to cold and loss of energy and libido. The identification of these new mechanisms opens up the possibility of developing new, more precise DR mimetics.</p>
+<p>“Science already knows a lot about how longevity is regulated at the genetic level, but the picture isn’t complete if we just look at transcription,” Rollins said. “With this research, we are <strong>drilling down</strong> to additional <strong>layers</strong> of regulation, which brings us one step closer to extending healthy human lifespan without the need to dramatically restrict calories or to take drugs that, because they are less selectively targeted, are more likely to cause <strong>adverse</strong> reactions.”</p>
+<p>The goal of DR mimetics is to access the adaptive programs in the cell that are activated when an organism is exposed to an existential threat such as a <strong>scarcity</strong> of nutrients. In such a case, the <strong>cellular machinery</strong> <strong>shifts</strong> from an emphasis on growth and reproduction, which is costly in terms of cellular resources, to an emphasis on survival. In order to ensure that an organism survives to reproduce when conditions improve, nature seeks to ensure that its cells function at peak efficiency.</p>
+<p>In addition to confirming existing theories about the adaptive response to DR, the paper highlights the importance of post-transcriptional regulation – or regulation that occurs after a gene has been “read” or “transcribed” from the DNA in the nucleus of the cell. The identification of the mechanisms that govern post-transcriptional levels of gene expression <strong>charts a pathway</strong> for <strong>screening</strong>, or testing, drugs that may have pro-longevity effects.</p>
+<p>“We found that hundreds of genes are being regulated almost solely at the post-transcriptional level,” Rollins said. “These are genes that weren’t previously known to have a role in longevity. This level of regulation can be missed if scientists are looking at the transcriptional level alone. The identification of these mechanisms gives us a better idea of how DR works and opens up a whole new area of potential investigation for the aging biology community.”</p>
+<figure>
+<img src="https://cronodon.com/sitebuilder/images/post-Transcriptional_mod-629x417.jpg" alt="Example of post-transcriptional modification from Pre-mRNA to mRNA. Source : https://cronodon.com/BioTech/Ribosomes.html" /><figcaption>Example of post-transcriptional modification from Pre-mRNA to mRNA. Source : <a href="https://cronodon.com/BioTech/Ribosomes.html" class="uri">https://cronodon.com/BioTech/Ribosomes.html</a></figcaption>
+</figure>
+<h1 id="source-of-the-article-and-word-count">Source of the article and word count</h1>
+<p>Source : <a href="https://www.sciencedaily.com/releases/2019/10/191010142059.htm" class="uri">https://www.sciencedaily.com/releases/2019/10/191010142059.htm</a> October 10, 2019</p>
+<p>Word count : 728 words</p>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Word from the text</th>
+<th>Synonym/definition in English</th>
+<th>French translation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>to set off</td>
+<td>to cause a situation or a series of events to happen</td>
+<td>déclencher/provoquer</td>
+</tr>
+<tr class="even">
+<td>stampede of research</td>
+<td>large number of people who focus on research</td>
+<td>une ruée vers la recherche</td>
+</tr>
+<tr class="odd">
+<td>to trigger hopes</td>
+<td>to provoke</td>
+<td>susciter l’espoir</td>
+</tr>
+<tr class="even">
+<td>road map</td>
+<td>route plan for drivers</td>
+<td>carte routière</td>
+</tr>
+<tr class="odd">
+<td>committed</td>
+<td>be dedicated to</td>
+<td>engagé</td>
+</tr>
+<tr class="even">
+<td>to delay</td>
+<td>cause to be late</td>
+<td>retarder</td>
+</tr>
+<tr class="odd">
+<td>onset</td>
+<td>start</td>
+<td>manifestation</td>
+</tr>
+<tr class="even">
+<td>one-celled yeasts</td>
+<td>fungi composed of a single cell</td>
+<td>levures unicellulaires</td>
+</tr>
+<tr class="odd">
+<td>to adhere to</td>
+<td>to follow</td>
+<td>à suivre</td>
+</tr>
+<tr class="even">
+<td>drill down</td>
+<td>focus on</td>
+<td>examiner de près</td>
+</tr>
+<tr class="odd">
+<td>layer</td>
+<td>level</td>
+<td>niveau</td>
+</tr>
+<tr class="even">
+<td>adverse reactions</td>
+<td>réactions négatives</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>scarcity</td>
+<td>lack</td>
+<td>pénurie</td>
+</tr>
+<tr class="even">
+<td>cellular machinery</td>
+<td>physical and chemical components of the cell that function together to carry out the different physiological functions of the cell</td>
+<td>machinerie cellulaire</td>
+</tr>
+<tr class="odd">
+<td>to shift</td>
+<td>to change</td>
+<td>passer</td>
+</tr>
+<tr class="even">
+<td>to chart a pathway</td>
+<td>to plot a course</td>
+<td>tracer un chemin</td>
+</tr>
+<tr class="odd">
+<td>screening</td>
+<td>scan for abnormalities</td>
+<td>dépistage</td>
+</tr>
+</tbody>
+</table>
+<h1 id="analysis-table">Analysis table</h1>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>——</th>
+<th>———</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Researchers</td>
+<td>Jarod A Rollins, Dan Shaffer, Santina S Snow, Pankaj Kapahi, Aric N Rogers</td>
+</tr>
+<tr class="even">
+<td>Published in ?</td>
+<td>ScienceDaily, October 10, 2019</td>
+</tr>
+<tr class="odd">
+<td>General topic ?</td>
+<td>The researchers discovered that the aging process is managed by post-transcriptional mechanisms, a modification after reading the gene.</td>
+</tr>
+<tr class="even">
+<td>Procedure/what was examined?</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Conclusions/discovery ?</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Remaining questions</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

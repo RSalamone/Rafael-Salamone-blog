@@ -1,0 +1,19 @@
+---
+title: "article-5"
+description: |
+  A short description of the post.
+author:
+  - name: Rafael Salamone
+    url: {}
+date: 11-28-2019
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+distill::create_post("article-6) 
+
