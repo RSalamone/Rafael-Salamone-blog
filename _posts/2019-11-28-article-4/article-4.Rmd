@@ -28,7 +28,7 @@ Word from the text | Synonym/definition in English | French translation
 ------------- | -------------|---------------------------------------------
 to set off | to cause a situation or a series of events to happen | déclencher/provoquer
 stampede of research | large number of people who focus on research | une ruée vers la recherche
-to trigger hopes | to provoke | susciter l'espoir
+to trigger hopes | to provoke hopes | susciter l'espoir
 road map | route plan for drivers | carte routière
 committed | be dedicated to | engagé
 dietary restriction | a reduction of particular or total nutrient intake without causing malnutrition | restriction alimentaire
