@@ -1,11 +1,11 @@
 ---
-title: "article-5"
-description: |
-  A short description of the post.
+title: "Article 5: How the strep bacterium hides from the immune system"
+description:
 author:
   - name: Rafael Salamone
     url: {}
-date: 11-28-2019
+date: 12-7-2019
+preview: http://outbreaknewstoday.com/wp-content/uploads/2014/07/16866_lores.jpg
 output:
   distill::distill_article:
     self_contained: false
@@ -15,5 +15,43 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-distill::create_post("article-6) 
+![Image of a Group A Streptococcus, source : http://outbreaknewstoday.com/group-streptococcus-two-genes-linked-flesh-eating-bacterial-infections-80886/](http://outbreaknewstoday.com/wp-content/uploads/2014/07/16866_lores.jpg)
 
+# Source of the article and word count
+Source : https://www.sciencedaily.com/releases/2019/12/191203114506.htm , December 3, 2019
+
+Word count: 762 words
+
+# Vocabulary 
+
+Word from the text | Synonym/definition in English | French translation
+------------- | -------------|---------------------------------------------
+step throat | an infection of the back of the throat including the tonsils caused by group A streptococcus | angine
+to cloak | to hide | cacher
+uncharacterized | not characterized | non caractérisé 
+to engulf | to cover | engloutir
+phagocytic immune cells | cells which use its plasma membrane to engulf a large particle, giving rise to an internal compartment called the phagosome | cellules immunitaires phagocytaires
+overlooke | neglected | négligé
+virulence factor | molecules produced by bacteria that add to their effectiveness and enable them to achieve the colonization of a niche in the host | facteur de virulence
+scarlet fever | contagious disease with rash | scarlatine
+elusive | out of reach | hors de portée
+penicillin | penicillins are a group of antibacterial drugs that attack a broad range of bacteria
+immune clearance | the accelerated removal of an antigen from the bloodstream that follows the initiation of an antibody response by the immune system. This leads to the formation of antigen-antibody complexes, which are ingested by macrophages and other phagocytic cells
+bacterial strain | a genetic variant or subtype of a bacteria | souche bactérienne
+macrophages | a large white blood cell in the immune system that destroys bacteria and other harmful substances | macrophages
+neutrophils | a phagocytic white blood cell having a lobulate nucleus and neutrophil granules in the cytoplasm | neutrophiles
+moreover | additionally
+molecular mimicry | analogy between a self antigen and certain structures of a pathogen
+to circumvent | to avoid | contourner 
+novel | new | nouveau 
+
+# Analysis table
+
+------        | ---------
+------------- | -------------
+| Researchers | Igor H. Wierzbicki, Anaamika Campeau, Diana Dehaini, Maya Holay, Xiaoli Wei, Trever Greene, Man Ying, Jenna S. Sands, Anne Lamsa, Elina Zuniga, Kit Pogliano, Ronnie H. Fang, Christopher N. LaRock, Liangfang Zhang, David J. Gonzalez.
+| Published in ? | ScienceDaily, December 3, 2019
+| General topic ? | Discover of a protein specific to the bacteria that mainly causes strep throat. This protein called protein S gives the bacteria a better ability to hide from the immune system by binding with red blood cells.
+| Procedure/what was examined? | They used a nanotechnology-based technique called virulome-based biomimetics to find out which protein is used to bind the bacteria to dead red blood cells. 
+| Conclusions/discovery ? | They have discovered that bacterial strains that do not possess protein S are less virulent and deadly. Thanks to this discovery, researchers are on the trail of a novel vaccine candidate.
+| Remaining questions | /

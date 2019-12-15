@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Source:https://www.sciencedaily.com/releases/2019/07/190722182130.htm July 22, 2019
 
-Word count: 942 
+Word count: 942 words
 
 # Vocabulary 
 Word from the text | Synonym/definition in English | French translation

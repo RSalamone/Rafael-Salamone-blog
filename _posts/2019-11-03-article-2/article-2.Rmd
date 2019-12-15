@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Source: https://www.sciencedaily.com/releases/2019/10/191008165817.htm October 8, 2019
 
-Word count : 860
+Word count : 860 words
 
 # Vocabulary 
 Word from the text | Synonym/definition in English | French translation
@@ -50,6 +50,7 @@ fodder | subject matter | matière
 ongoing | continuing | en cours
 assumption | supposition | hypothèse
 of note | important | notable
+
 # Analysis table
 
 ------        | ---------
