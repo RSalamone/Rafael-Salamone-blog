@@ -1,0 +1,44 @@
+---
+title: "Article 6: Genetic control for major agricultural weeds ?"
+description: 
+author:
+  - name: Rafael Salamone
+    url: {}
+date: 02-15-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+# Source of the article and word count
+
+https://www.sciencedaily.com/releases/2019/07/190718112434.htm , July 18, 2019
+
+Word count: 662
+
+# Vocabulary 
+
+Word from the text | Synonym/definition in English | French translation
+------------- | -------------|---------------------------------------------
+Waterhemp | A weed of the family Amaranthaceae in many crops in the United States and Canada, including cotton, corn and soybeans | Amarante rugueuse
+Palmer amaranth | An invasive plant of the family Amaranthaceae native to North America that occurs in the southern United States. It is highly resistant to insecticides | Amarante de Palmer
+Presumably | In all probability | Vraisemblablement
+Heterogametic sex | it refers to the sex in a species characterized by different sex chromosomes | Sexe hétérogamétique
+In the meantime | At an educated guess | Pendant ce temps-là
+
+
+# Analysis table
+
+------        | ---------
+------------- | -------------
+| Researchers | Jacob S. Montgomery, Ahmed Sadeque, Darci A. Giacomini, Patrick J. Brown, Patrick J. Tranel
+| Published in ? | ScienceDaily, July 18, 2019
+| General topic ? | Genetic control could be the solution to weeds.
+| Procedure/what was examined? | The researchers tried to find the DNA sequences that code for maleness in Waterhemp and Palmer amaranth and then they cross-breed the plants, make them all male so that they could no longer reproduce
+| Conclusions/discovery ? | The male plants of these weeds are heterogametic sex (one X and Y chromosome) and maleness is dominant which means that genetic control is even easier 
+| Remaining questions | Are the plants capable of changing sex or is one sex more sensitive to herbicides than the other ?
+
+
