@@ -1,0 +1,47 @@
+---
+title: "Article 7: Cells carrying Parkinson's mutation could lead to new model for studying disease"
+description: 
+author:
+  - name: Rafael Salamone
+    url: {}
+date: 03-02-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Source of the article and word count
+
+https://www.sciencedaily.com/releases/2020/02/200227144247.htm , February 27, 2020
+
+Word count: 564
+
+
+# Vocabulary 
+Word from the text | Synonym/definition in English | French translation
+------------- | -------------|---------------------------------------------
+marmoset monkey | small, bushy-tailed, strong-clawed, tropical American tree monkey (about 20 cm tall). It belongs to the family Callithricidae
+tamp down | modify to (in this context) | modifier à  
+to go awry | go wrong | mal tourner
+elusive | thing, idea hard to grasp | compliqué
+tremor | trembling of body | tremblement
+exquisite | beautiful | magnifique
+dish (Petri dish) | a Petri dish is a shallow transparent cylindrical glass or plastic petri dish with a lid | une boite de pétri 
+to spur | lead to action | pousser à 
+to glimpse | see briefly | entrevoir
+truncated | made shorter by removing the end of something:
+
+# Analysis table
+
+------        | ---------
+------------- | -------------
+| Researchers | Marina Emborg and the other researchers from University of Wisconsin-Madison and also supported from the National Institutes of Health
+| Published in ? | ScienceDaily, February 27, 2020
+| General topic ? | Researchers have succeeded in discovering a new way to study diseases during their study of Parkinson's disease 
+| Procedure/what was examined? | They were able to induce a mutation, called G2019S, in genes of a marmoset stem cell by modifying a nucleotide with 'CRISPR' gene modification technology. This results in making an enzyme too active, a kinase called LRRK2, , which causes Parkinson's disease. They then studied cells that synthesize that enzyme with this mutation to facilitate the study 
+| Conclusions/discovery ? | 1) They can see the effects of the mutation caused and thus thanks to these new techniques they can control the progression of a disease and from there test ways to treat the disease. 2) They also have a treatment trail for Parkinson's disease. They have modified a gene to stop the synthesis of the modified kinase with marmoset stem cells and this has had positive effects
+| Remaining questions | /
