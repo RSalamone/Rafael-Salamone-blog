@@ -24,7 +24,7 @@ Word count: 564
 # Vocabulary 
 Word from the text | Synonym/definition in English | French translation
 ------------- | -------------|---------------------------------------------
-marmoset monkey | small, bushy-tailed, strong-clawed, tropical American tree monkey (about 20 cm tall). It belongs to the family Callithricidae
+marmoset monkey | small, bushy-tailed, strong-clawed, tropical American tree monkey (about 20 cm tall). It belongs to the family Callithricidae | ouistiti
 tamp down | modify to (in this context) | modifier à  
 to go awry | go wrong | mal tourner
 elusive | thing, idea hard to grasp | compliqué
@@ -33,7 +33,7 @@ exquisite | beautiful | magnifique
 dish (Petri dish) | a Petri dish is a shallow transparent cylindrical glass or plastic petri dish with a lid | une boite de pétri 
 to spur | lead to action | pousser à 
 to glimpse | see briefly | entrevoir
-truncated | made shorter by removing the end of something:
+truncated | made shorter by removing the end of something | tronqué
 
 # Analysis table
 
