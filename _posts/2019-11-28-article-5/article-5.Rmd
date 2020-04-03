@@ -1,11 +1,11 @@
 ---
-title: "Article 5: How the strep bacterium hides from the immune system"
+title: "Article 5: Hidden genetic variations power evolutionary leaps"
 description:
 author:
   - name: Rafael Salamone
     url: {}
 date: 12-7-2019
-preview: http://outbreaknewstoday.com/wp-content/uploads/2014/07/16866_lores.jpg
+preview: 
 output:
   distill::distill_article:
     self_contained: false
@@ -15,43 +15,52 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![Image of a Group A Streptococcus, source : http://outbreaknewstoday.com/group-streptococcus-two-genes-linked-flesh-eating-bacterial-infections-80886/](http://outbreaknewstoday.com/wp-content/uploads/2014/07/16866_lores.jpg)
+![]()
+Laboratory populations that quietly amass **'cryptic' genetic variants** are capable of surprising **evolutionary leaps**, according to a paper in the July 26 issue of Science. A better understanding of cryptic variation may improve directed evolution techniques for developing new biomolecules for medical and other applications.
+
+Genetic variation -- that is, accumulated mutations in the DNA -- is the fuel for all evolutionary change: the more genetic variation, the faster evolution works and the more possibilities for novel adaptive solutions.
+
+But one kind of genetic variation -- hidden, or "cryptic," variation -- doesn't alter the appearance or behavior of an organism in its usual environment.
+
+"It's an underappreciated kind of genetic variation," says corresponding author Andreas Wagner, an evolutionary biologist at the University of Zurich and external professor at the Santa Fe Institute, "and it plays an important role in evolution."
+
+Previous work has shown that cryptic variation in natural populations promotes rapid evolutionary adaptation. But the **underlying** molecular mechanisms were unclear.
+
+To explore those mechanisms, Wagner's team worked with populations of the gut bacterium E. coli that carried a plasmid with a gene for a yellow fluorescent protein (YFP). The team designed a two-stage experiment. In stage 1, they used mutagenic PCR to increase variation in the YFP gene. Simultaneously, they selected for a narrow range of yellow fluorescence. Any bacteria not sufficiently yellow were excluded, a process called 'stabilizing selection.' In this way, they built up deep stores of cryptic genetic variation without altering the yellow color of the YFP protein.
+
+During stage 2, the team changed the selection rules and began selecting for E. coli that fluoresced in the green part of the spectrum ('directional selection'). They also introduced control populations of E. coli that lacked enhanced cryptic variation in YFP. The E. coli cell lines with stores of cryptic variation evolved green fluorescent protein (from YFP genes) that were both greener and genetically more diverse than any produced by the control E. coli **lineages**.
+
+In the experiment, says co-author Joshua Payne (ETH Zurich), cryptic variation did more than drive evolutionary adaptation faster. Cell lines with deep reserves of cryptic variation evolved greener YFP proteins, forms of the protein that were inaccessible to regular bacteria, and they evolved by multiple unique routes not available to regular E. coli.
+
+Current laboratory directed evolution often leads to the same evolutionary outcomes each time. The new work shows how amassing cryptic variation can open doors to otherwise inaccessible regions of protein sequence space, says first author Jia Zheng, a postdoctoral researcher at the University of Zurich.
+
+In the wild, cryptic variation helps fish adapt to life in caves. In the lab, cryptic variation might help a biomolecule bind a new receptor. "Our work can help develop new directed evolution strategies to find innovative biomolecules for biotechnological and medical applications," says Zheng.
+
+Like a fat **savings account**, cryptic variation is a store of variation that becomes available in an emergency to fuel rapid evolutionary change critical to the survival of a lineage and useful for molecular biologists.
+
 
 # Source of the article and word count
-Source : https://www.sciencedaily.com/releases/2019/12/191203114506.htm , December 3, 2019
+Source : https://www.sciencedaily.com/releases/2019/07/190725150944.htm , July 25, 2019
 
-Word count: 762 words
+Word count: 501 words
 
 # Vocabulary 
 
 Word from the text | Synonym/definition in English | French translation
 ------------- | -------------|---------------------------------------------
-step throat | an infection of the back of the throat including the tonsils caused by group A streptococcus | angine
-to cloak | to hide | cacher
-uncharacterized | not characterized | non caractérisé 
-to engulf | to cover | engloutir
-phagocytic immune cells | cells which use its plasma membrane to engulf a large particle, giving rise to an internal compartment called the phagosome | cellules immunitaires phagocytaires
-overlooke | neglected | négligé
-virulence factor | molecules produced by bacteria that add to their effectiveness and enable them to achieve the colonization of a niche in the host | facteur de virulence
-scarlet fever | contagious disease with rash | scarlatine
-elusive | out of reach | hors de portée
-penicillin | penicillins are a group of antibacterial drugs that attack a broad range of bacteria
-immune clearance | the accelerated removal of an antigen from the bloodstream that follows the initiation of an antibody response by the immune system. This leads to the formation of antigen-antibody complexes, which are ingested by macrophages and other phagocytic cells
-bacterial strain | a genetic variant or subtype of a bacteria | souche bactérienne
-macrophages | a large white blood cell in the immune system that destroys bacteria and other harmful substances | macrophages
-neutrophils | a phagocytic white blood cell having a lobulate nucleus and neutrophil granules in the cytoplasm | neutrophiles
-moreover | additionally
-molecular mimicry | analogy between a self antigen and certain structures of a pathogen
-to circumvent | to avoid | contourner 
-novel | new | nouveau 
+cryptic | a genetic mutation expressing itself only under certain conditions | variant génétique cryptique
+evolutionnary leap | a sudden and great mutational change that occurs from one generation to the next | bond évolutif
+underlying | hidden | sous-jacent/caché
+lineage | line of descendants | lignée
+savings account | depositing money in the bank and earning interest on it | compte épargne
 
 # Analysis table
 
 ------        | ---------
 ------------- | -------------
-| Researchers | Igor H. Wierzbicki, Anaamika Campeau, Diana Dehaini, Maya Holay, Xiaoli Wei, Trever Greene, Man Ying, Jenna S. Sands, Anne Lamsa, Elina Zuniga, Kit Pogliano, Ronnie H. Fang, Christopher N. LaRock, Liangfang Zhang, David J. Gonzalez.
-| Published in ? | ScienceDaily, December 3, 2019
-| General topic ? | Discover of a protein specific to the bacteria that mainly causes strep throat. This protein called protein S gives the bacteria a better ability to hide from the immune system by binding with red blood cells.
-| Procedure/what was examined? | They used a nanotechnology-based technique called virulome-based biomimetics to find out which protein is used to bind the bacteria to dead red blood cells. 
-| Conclusions/discovery ? | They have discovered that bacterial strains that do not possess protein S are less virulent and deadly. Thanks to this discovery, researchers are on the trail of a novel vaccine candidate.
+| Researchers | Jia Zheng, Joshua L. Payne, Andreas Wagner
+| Published in ? | ScienceDaily, July 25, 2019
+| General topic ? | Cryptic genetic variants are what cause evolutionary leaps and these could allow new biomolecules to be found in the medical field or other fields
+| Procedure/what was examined? | Step one, they took bacteria from the gut and mutated it with a mutagenic PCD. The bacteria multiplied by donating their plasmids and then they chose the ones that synthesized a yellow protein. Then, as a second step, they took the bacteria that synthesized green proteins
+| Conclusions/discovery ? | These cryptic genetic variants could make it possible to develop new biomolecular techniques. For example, it could cause a biomolecule to bind to a new receptor
 | Remaining questions | /
