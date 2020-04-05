@@ -1,0 +1,64 @@
+---
+title: "Article 8: Thyroid cancer, genetic variations, cell phones linked in new study"
+description: |
+author:
+  - name: Rafael Salamone
+    url: {}
+date: 03-13-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Radiation from cell phones is associated with higher rates of thyroid cancer among people with genetic variations in specific genes, a new study led by the Yale School of Public Health finds.
+
+The researchers examined over 900 people in Connecticut and found that those with certain **single nucleotide polymorphisms** (genetic variations commonly referred to as SNPs and pronounced as "snips") were significantly more likely to develop cancer in their thyroid, a gland in the throat that controls metabolism.
+
+Cell phone users with SNPs in four of the genes studied were more than two times likely to develop cancer. The researchers examined a total of 176 genes and identified 10 SNPs that appear to increase the risk of thyroid cancer among cell phone users.
+
+Published in the journal Environmental Research, the study is believed to be the first to examine the combined influence of genetic susceptibility and cell phone use in relation to thyroid cancer.
+
+"Our study provides evidence that genetic susceptibility influences the relationship between cell phone use and thyroid cancer," said Yawei Zhang, M.D., Ph.D., a professor in the Department of Environmental Health Sciences at the Yale School of Public Health. "More studies are needed to identify populations who are susceptible to radiofrequency radiation (RFR) and understand exposure to RFR by different using patterns of cell phones."
+
+The findings suggest that genetic susceptibilities play an important role in cell phone use and the risk of developing thyroid cancer and could help to identify subgroups who are potentially at risk. Further research is needed to confirm the findings and to better understand the interaction between cell phone radiation and SNPs within specific genes.
+
+The rates of thyroid cancer have been steadily increasing in the United States and in many other parts of the world, Zhang said.
+
+According to the American Cancer Society's most recent report, there were nearly 53,000 new cases of thyroid cancer in the United States, resulting in 2,180 deaths. Thyroid cancer is three times more common in women and is diagnosed at a younger age than most other cancers.
+
+Zhang noted that the study relied on data collected from 2010 to 2011 when smartphones were first being introduced to the market. At the time, only a small proportion of people had smart phones. Therefore, if cell phone use increased the risk of thyroid cancer, it was possibly due to the use of earlier generation cell phones that were more commonly used when the data was collected.
+
+Additionally, the transition to smartphones has also seen a major change in how cell phones are used (e.g., texting vs. phone calls). As a result, findings from this current study **warrant** a further evaluation in future studies, she said.
+
+Other Yale School of Public Health researchers involved in the study include Jiajun Luo, Hang Li, Nicole Deziel, Huang Huang and Shuangge Ma. Researchers from China and Florida also co-authored the study.
+
+
+# Source of the article and word count
+
+https://www.sciencedaily.com/releases/2020/02/200212121948.htm , February 12, 2020
+
+Word count: 480
+
+
+# Vocabulary 
+Word from the text | Synonym/definition in English | French translation
+------------- | -------------|---------------------------------------------
+single nucleotide polymorphisms | the variation (polymorphism) of a single base pair of the genome, between individuals of the same species | polymorphisme d'un seul nucleotide 
+to warrant | to justify | mériter/justifier
+
+# Analysis table
+
+------        | ---------
+------------- | -------------
+| Researchers | Jiajun Luo, Hang Li, Nicole C. Deziel, Huang Huang, Nan Zhao, Shuangge Ma, Xin Ni, Robert Udelsman, Yawei Zhang
+| Published in ? | ScienceDaily, February 12, 2020
+| General topic ? | People with genetic variations would be more susceptible to telephone radiation causing thyroid cancer.
+| Procedure/what was examined? | The researchers looked at a number of genes and focused on four of them. When these genes get SNPs, they are more likely to cause thyroid cancer.
+| Conclusions/discovery ? | Genetic susceptibilities (SNPs) play an important role in the development of thyroid cancers and this may help to identify groups of people who are at higher risk of developing them.
+| Remaining questions | It is necessary to redo a more in-depth study but with much more recent data because the data for this study dates back to the beginning of smartphones 
+
+
