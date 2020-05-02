@@ -1,0 +1,21 @@
+---
+title: "Introduction"
+description: |
+author:
+  - name: Rafael Salamone
+    url: {}
+date: 10-14-2019
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In the scientific world, genetic research is very important because it is not only present in the medical world, as many may think, but it can also be used, for example, in agronomy or other fields. In fact, it makes it easier to understand or solve the things that scientists are faced with. 
+
+But what is genetics? Genetics is the science of heredity. It studies the hereditary characteristics of individuals, their transmission over generations and their variations (mutations). We almost all know that we store our genetic information in our DNA. This DNA contains genes that allow the synthesis of all the proteins found in an organism. When the DNA compacts, it forms chromosomes (23 pairs in humans), which contain the genes, and it is these genes that are passed on from generation to generation. 
+
+In my portfolio, the research is going to be on a lot of unrelated topics where genetics has been used to understand/solve a scientific problem. The articles talk about so many different things that it is difficult to say what they are essentially about. They talk about koalas protecting themselves from viruses with their DNA, canine behaviours linked to genes, plants stealing genes from other plants, genetic mechanisms of age, hidden genetic variations that allow evolutionary leaps, genetics in agriculture, new models to study Parkinson's disease, or links between genetics and thyroid cancer. These are all very different topics, but as I said before, they are all being studied with the tools of genetics.

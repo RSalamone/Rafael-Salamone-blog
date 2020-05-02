@@ -1,0 +1,24 @@
+---
+title: "Conclusion"
+description: |
+author:
+  - name: Rafael Salamone
+    url: {}
+date: 05-02-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+We have seen that genetics can greatly contribute to a better understanding and that it is linked to the mechanisms of certain diseases (Parkinson's, thyroid cancer) or of age, and thus give the medical field more means to save or prolong people's lives. 
+The DNA of koalas are able to protect themselves against viruses thanks to their DNA. This is interesting because it could give us a clue to better protect ourselves against viruses with our DNA.
+Genetics plays an important role in the behaviour of dogs: hunting, training ability, targeted attack on a stranger, etc... Part of the behaviours are caused by their genes. We can therefore better understand human and other behaviour through genetics. 
+One species of plant can steal genes from another. Being able to use genes from other organisms could be very useful, but from an ethical and moral point of view it is a bit limited.
+There are cryptic genetic variations that allow evolutionary leaps. This could greatly help in finding new biomolecules that would attach to a new receptor.
+Genetics to counter weed proliferation. It shows how useful genetics can be in agriculture.
+
+In conclusion, genetic research is really important in many different areas.
